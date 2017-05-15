@@ -1,0 +1,36 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/*.jumboback {
+  background-color: #000;
+}*/
+.jumbotron {
+  /*padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;*/
+  margin-top: -3.6em;
+  color: inherit;
+  background-color: #000;
+}
+
+.jumbopic {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    /*vertical-align: none;*/
+    margin-top: -3em;
+}
+
+.jumbotext {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  transform: translate(-35%, -65%);
+  padding-right: 20%;
+  padding-left: 20%;
+}
