@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  background-color: #222;
+}
+
+.logo-nav {
+  width: 3rem;
+  height: auto;
+}
